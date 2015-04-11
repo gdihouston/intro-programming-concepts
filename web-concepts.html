@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Girl Develop It ~ Intro to Programming Concepts</title>
+
+    <meta name="description" content="Intro to Programming Concepts">
+    <meta name="author" content="Girl Develop It ">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/gdidefault.css" id="theme">
+    <link rel="stylesheet" href="lib/css/light.css">
+    <link rel="stylesheet" href="css/print/pdf.css" media="print">
+    <link rel="stylesheet" href="css/flipclock.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/flipclock.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h3>What We'll Cover</h3>
+          <div style="width: 48%; margin-right: 2%; float: left; text-align: left;">
+            <ul>
+                <li>Terms &amp; technologies</li>
+                <li>Building a Website</li>
+                <li>Web Standards</li>
+                <li>Web Design</li>
+                <li>Careers</li>
+            </ul>
+          </div>
+          <div style="width: 50%; float: left; text-align: left;">
+              <img src="images/greetings-internet.png" alt="Greetings from the Internet! It's pretty much all cats." />
+          </div>
+      </section>
+      <!-- BEGIN TERMS AND TECHNOLOGY -->
+        <section>
+            <h3>Terms &amp; Technologies</h3>
+            <ul>
+              <li class="fragment">WWW: World Wide Web
+                <ul class="fragment">
+                    <li>A series of tubes and clouds</li>
+                </ul>
+              </li>
+              <li class="fragment">ISP: Internet Service Provider
+                <ul class="fragment">
+                    <li>The networks of the world that are connected to all the other networks of the world</li>
+                </ul>
+              </li>              
+              <li class="fragment">IP Address: Internet Protocol Address
+                <ul class="fragment">
+                  <li>A device's physical address on the network</li>
+                </ul>
+
+              </li>
+              <li class="fragment">DNS: Domain Name System
+                <ul class="fragment">
+                    <li>The phone book of the internet</li>
+                </ul>
+              </li>
+
+            </ul>
+        </section>
+
+        <section>
+            <section>
+                <img src="images/how-web-works.png" alt="A comic on how the web works" />
+            </section>
+        </section>
+
+                <section>
+                    <h3>Terms &amp; Technologies</h3>
+            <ul>
+              <li class="fragment">
+                Client-side vs. Server-side
+                <ul class="fragment">
+                    <li>
+                      <strong>Client Side:</strong> Stuff happening in-browser on your side before the request ever hits a server
+                    </li>
+                    <li>
+                      <strong>Server Side:</strong> Requests being fulfilled by a server (&#34;send me these documents&#34;)
+                    </li>
+                </ul>
+              </li>
+              <li class="fragment">
+                For our discussion, think client &#61; browser
+              </li>
+              <li class="fragment">
+                Clients make requests, servers fulfill them
+              </li>
+            </ul>
+                </section>
+
+                <section>
+                    <h3>Speaking of browsers…</h3>
+
+                    <img class="fragment" src="images/browser-comic-1.png" alt="" width="50%" />
+          
+                    
+                </section>
+
+             <section>
+            <h3>Parsing Languages &amp; Media</h3>
+            <div style="width: 48%; margin-right: 2%; float: left; text-align: left;">
+              <ul class="fragment" style="list-style-type: none; margin: 0;">
+                <li style="text-decoration: underline;"><strong>Client Side</strong></li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Images</li>
+                <li>Flash (with plugin)</li>
+              </ul>
+            </div>
+            <div style="width: 50%; float: left; text-align: left;">
+              <ul class="fragment" style="list-style-type: none; margin: 0;">
+                <li style="text-decoration: underline;"><strong>Server Side</strong></li>
+                <li>PHP</li>
+                <li>Perl</li>
+                <li>Python</li>
+                <li>.NET</li>
+                <li>Java</li>
+                <li>ColdFusion</li>
+                <li>Ruby</li>
+                <li>Databases</li>
+              </ul>
+            </div>
+        </section>
+
+        <section>
+          <h3>Client Side &#40;Front End&#41; </h3>
+          <div class="left-align">
+            <ul>
+              <li class="fragment">HTML: Hyper Text Markup Language
+                <ul class="fragment">
+                    <li>Code structure used to convey the content of the web</li>
+                </ul>
+              </li>
+              <li class="fragment">CSS: Cascading Style Sheets
+                <ul class="fragment">
+                    <li>A language used to describe the presentation of content</li>
+                </ul>
+              </li>
+              <li class="fragment">WYSIWYG: What You See Is What You Get
+                <ul class="fragment">
+                  <li>Content editing software meant to "write the code for you"</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Parsing Languages &amp; Media</h3>
+          <div class="left-align">
+              <p class="fragment">A web developer's pet peeve: Java != Javascript</p>
+              <p class="fragment">Java is to JavaScript as ham is to hamster.</p>
+              <p class="fragment">Java is a server-side programming language that requires a special parser;
+                JavaScript is client-side language that is often used for procedures or
+                interactions, can be parsed by any browser</p>
+          </div>
+        </section>
+
+      
+      <!-- PICKING LANGUAGE & DEVELOPMENT PROCESS -->
+                <section>
+                  <h3>How Do I Know What Language To Use?</h3>
+                  <ul>
+                      <li class="fragment">First, what are you building? Who is it for? What does it have to do?</li>
+                      <li class="fragment">Second, does it have any special considerations, like security, authentication, database requirements, APIs (Application Programming Interface)?</li>
+                      <li class="fragment">Third, are you working for a client? Do they have special requirements?</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Terms &amp; Technologies</h3>
+                  <ul>
+          <li class="fragment">Web Stack
+            <ul>
+              <li class="fragment">Set of systems required to run a website</li>
+              <li class="fragment">Includes an operating system, server, database, &amp; programming language</li>
+              <li class="fragment">Example: &#34;LAMP stack&#34;
+                <ul class="fragment">
+                  <li>Linux (operating system)</li>
+                  <li>Apache (server)</li>
+                  <li>MySQL (database)</li>
+                  <li>PHP (language)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          </ul>
+                </section>
+
+                <section>
+                  <h3>Building a Website</h3>
+          <ul>
+            <li class="fragment">An example development process (in a high-level, gross-oversimplification)
+              <ul>
+                <li class="fragment">Strategy is defined (Who is the audience? What are you giving them?)</li>
+                <li class="fragment">User Experience (UX) &amp; Information Architecture are designed (How will the user do the tasks we want them to do?)</li>
+                <li class="fragment">Beautiful, on-strategy designs are crafted</li>
+                <li class="fragment">Development ensues</li>
+                <li class="fragment">Quality Assurance (QA) Testing is completed</li>
+                <li class="fragment">The website is launched</li>
+              </ul>
+            </li>
+          </ul>
+                </section>
+
+                <section>
+                  <h3>Web Standards</h3>
+                  <ul>
+                    <li class="fragment">There are MANY!</li>
+                    <li class="fragment">In general, this means your site should:
+                      <ul>
+                          <li class="fragment">Have valid HTML/CSS/JavaScript</li>
+                          <li class="fragment">Meet accessibility standards (allows people with disabilities to use the web)</li>
+                          <li class="fragment">Meet semantic guidelines (common data formats)</li>
+                          <li class="fragment">Have valid meta data</li>
+                          <li class="fragment">Have proper character encoding</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </section>
+
+      <!-- IMPORTANCE OF DESIGN -->
+        <section>
+          <h3>A Word About Web Design</h3>
+          <ul>
+            <li class="fragment">Previously design was very separated from development</li>
+              <ul>
+                  <li class="fragment"><strong>Pros:</strong> Strong design skills, no need to deal with learning curve of dev, just pass from role to role</li>
+                  <li class="fragment"><strong>Cons:</strong> causes problems when handing off to a developer, teamwork + products suffer</li>
+              </ul>
+            <li class="fragment">With the variety of devices + interactions, there is a lot of support for interactive design
+              <ul>
+                  <li class="fragment">Design today is more important than ever - you’re not just designing for one medium but across several</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+
+        <section>
+          <h3>Design Best Practices</h3>
+          <ul>
+            <li class="fragment">Mobile First
+              <ul>
+                <li class="fragment">No longer designing for one view (e.g. desktop)</li>
+                <li class="fragment">Now need to consider multiple views across devices</li>
+                <li class="fragment">Content + design thought through from big to small</li>
+              </ul>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Design Best Practices</h3>
+          <ul>
+            <li class="fragment">User-Centered
+              <ul>
+                <li class="fragment">When creating experiences for a user, optimize it so it's friendly + clear</li>
+                  <ul>
+                    <li class="fragment">Examples:
+                      <ul>
+                        <li class="fragment">Keep it clear + simple - make the purpose clear from the get go</li>
+                        <li class="fragment">Make primary actions clear so the users know where to go</li>
+                        <li class="fragment">Keep navigation in an easy-to-access format</li>
+                        <li class="fragment">Test, test, test! Either with team or volunteers</li>
+                      </ul>
+                    </li>
+                  </ul>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Content Management Systems (CMS)</h3>
+          <p>Allow you to create websites without coding</p>
+          <ul>
+            <li class="fragment">Wordpress</li>
+            <li class="fragment">Drupal</li>
+            <li class="fragment">Joomla</li>
+          </ul>
+        </section>
+
+      <!-- CAREERS -->
+        <section>
+          <h3>Careers - The Web Team</h3>
+          <ul>
+            <li class="fragment">Front end
+              <ul>
+                <li>User Experience Designer</li>
+                <li>Graphic Designer</li>
+                <li>Web Developer</li>
+              </ul>
+            </li>
+            <li class="fragment">Back end
+              <ul>
+                <li>Server Admin</li>
+                <li>Database Admin</li>
+                <li>Web Developer/Software Engineer</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Careers</h3>
+          <ul>
+            <li class="fragment">Move across industries
+              <ul>
+                <li class="fragment">Big teams (ex: corporations)</li>
+                <li class="fragment">Small teams (ex: creative agencies)</li>
+                <li class="fragment">Startups (Houston has some. Austin has more.)</li>
+                <li class="fragment">Freelance
+                  <ul>
+                    <li class="fragment">Grow skills, work on fun projects</li>
+                    <li class="fragment">Create a solo business doing what you love</li>
+                    <li class="fragment">This can help you learn more skills outside of the day-to-day role</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Questions?</h2>
+          <div style="font-size:1200%; height:100%; margin-top:30%" class ="blue">?
+            <div class="clear"></div>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <div class="copyright">
+          GDI Houston
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/reveal.min.js"></script>
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        rollingLinks: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+    </script>
+  </body>
+</html>
