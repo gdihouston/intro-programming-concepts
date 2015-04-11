@@ -2328,17 +2328,6 @@ body {
 /*********************************************
  * IMAGES
  *********************************************/
-/* line 135, source/template/_theme.scss */
-.reveal section img {
-  margin: 15px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #eeeeee;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
 
 /* line 145, source/template/_theme.scss */
 .reveal a:hover img {

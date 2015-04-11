@@ -58,6 +58,6 @@ When you're ready, commit and push your changes to your repo.
 Don't forget to do a pull request on the upstream repo so we can merge your changes in!
 
 ## Questions?
-E-mail us: [annarbor@girldevelopit.com](mailto:annarbor@girldevelopit.com)
+E-mail us: [houston@girldevelopit.com](mailto:houston@girldevelopit.com)
 
-Tweet at us: [@gdiannarbor](http://twitter.com/gdiannarbor)
+Tweet at us: [@gdihouston](http://twitter.com/gdihouston)
